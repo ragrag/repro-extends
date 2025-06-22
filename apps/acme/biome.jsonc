@@ -13,18 +13,10 @@
 	},
 	"files": {
 		// not respected, prints lint errors for .nuxt/index.ts
-		"includes": [
-			"**",
-			"!**/node_modules",
-			"!**/.nuxt"
-		]
+		"includes": ["**", "!**/node_modules", "!**/.nuxt"]
 	},
 	"linter": {
 		// // not respected, prints lint errors for .nuxt/index.ts
-		"includes": [
-			"**",
-			"!**/node_modules",
-			"!**/.nuxt"
-		]
+		"includes": ["**", "!**/node_modules", "!**/.nuxt"]
 	}
 }

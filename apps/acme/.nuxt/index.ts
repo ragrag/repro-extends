@@ -1,7 +1,6 @@
 const main = () => {
-    let a: number = 1;
-    a = null!;
-
+	let a: number = 1;
+	a = null!;
 
 
 
