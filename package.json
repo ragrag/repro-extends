@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "packageManager": "pnpm@10.12.1",
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10.12.1"
+  },
+  "scripts": {
+    "lint": "turbo lint --continue",
+    "lint:fix": "turbo lint:fix --continue"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "catalog:"
+  }
+}

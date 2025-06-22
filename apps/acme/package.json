@@ -1,0 +1,22 @@
+{
+	"name": "acme",
+	"version": "1.0.0",
+	"type": "module",
+	"repository": {
+		"type": "git"
+	},
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"lint": "biome check",
+		"lint:ci": "biome ci",
+		"lint:fix": "biome check --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "catalog:"
+	},
+	"dependencies": {
+		"lodash-es": "catalog:"
+	}
+}

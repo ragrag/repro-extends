@@ -1,0 +1,31 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.0.4/schema.json",
+  "root": true,
+  "files": {
+    "includes": [
+      "**",
+      "!**/coverage",
+      "!**/build",
+      "!**/dist",
+      "!**/node_modules",
+      "!**/.turbo"
+    ]
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true,
+      "style": {
+        "noNonNullAssertion": "error"
+      }
+    },
+    "includes": [
+      "**",
+      "!**/coverage",
+      "!**/build",
+      "!**/dist",
+      "!**/node_modules",
+      "!**/.turbo"
+    ]
+  }
+}

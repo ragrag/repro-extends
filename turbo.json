@@ -1,0 +1,30 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": [
+    "NODE_ENV"
+  ],
+  "tasks": {
+    "lint": {
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "../../biome.json",
+        "../../../biome.json"
+      ]
+    },
+    "lint:fix": {
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "../../biome.json",
+        "../../../biome.json"
+      ]
+    },
+    "lint:ci": {
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "../../biome.json",
+        "../../../biome.json"
+      ],
+      "outputLogs": "errors-only"
+    }
+  }
+}
