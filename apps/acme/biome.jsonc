@@ -16,7 +16,7 @@
 		"includes": ["**", "!**/node_modules", "!**/.nuxt"]
 	},
 	"linter": {
-		// // not respected, prints lint errors for .nuxt/index.ts
+		// not respected, prints lint errors for .nuxt/index.ts
 		"includes": ["**", "!**/node_modules", "!**/.nuxt"]
 	}
 }
