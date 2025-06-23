@@ -7,7 +7,8 @@
   },
   "scripts": {
     "lint": "turbo lint --continue",
-    "lint:fix": "turbo lint:fix --continue"
+    "lint:fix": "turbo lint:fix --continue",
+    "lint:ci": "turbo lint:ci --continue"
   },
   "devDependencies": {
     "@biomejs/biome": "catalog:"

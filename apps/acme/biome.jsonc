@@ -1,12 +1,14 @@
 {
 	"$schema": "https://biomejs.dev/schemas/2.0.4/schema.json",
-	"extends": "//",
+	//"extends": "//",
 	// using root false and extends results in error
 	// ✖ Failed to resolve the configuration from ../../biome.jsonc
 	// Caused by:
 	//   Could not resolve ../../biome.jsonc: module not found
-	//"root": false,
-	//"extends": ["../../biome.jsonc"],
+	"root": false,
+	"extends": [
+		"../../biome.jsonc"
+	],
 	"formatter": {
 		// not respected, prints formatter errors for .nuxt/index.ts
 		"enabled": false
