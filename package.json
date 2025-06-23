@@ -11,6 +11,7 @@
     "lint:ci": "turbo lint:ci --continue"
   },
   "devDependencies": {
-    "@biomejs/biome": "catalog:"
+    "@biomejs/biome": "catalog:",
+    "turbo": "latest"
   }
 }
